@@ -140,6 +140,11 @@ def frame(n):
         p = fin["petit"]; tw = d.textlength(p, font=F(44))
         d.text(((WW - tw) / 2, 820), p, font=F(44), fill=W, stroke_width=4, stroke_fill=(0, 0, 0))
     draw_caption(im, t)
+    # crédit photo (licences libres type CC BY / CC BY-SA : obligatoire quand la photo est à l'écran)
+    cr = cfg.get("credits", {}).get(plans[i][1])
+    if cr:
+        tw = d.textlength(cr, font=F(26))
+        d.text((WW - tw - 30, HH - 60), cr, font=F(26), fill=W, stroke_width=3, stroke_fill=(0, 0, 0))
     # barre de progression fine
     d.rectangle((0, HH - 12, int(WW * t / TOT), HH), fill=Y)
     return im

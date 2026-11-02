@@ -1,26 +1,233 @@
 {
-  "senegal": {"video": "semaine1/lucarne_senegal.mp4", "fond": "medias/recits/drogba_2005/p02b.jpg", "x": 0.5,
-    "haut": "31 MAI 2002", "gros": [["SÉNÉGAL", "W"], ["1 - 0", "Y"], ["FRANCE", "W"]],
-    "bas": [["LE PLUS GROS CHOC", "W"], ["DU MONDIAL ?", "R"]]},
-  "messi": {"video": "semaine1/lucarne_messi.mp4", "fond": "medias/recits/drogba_2005/p05b.jpg", "x": 0.3,
-    "haut": "MESSI · 2012", "gros": [["91", "Y"], ["BUTS", "W"], ["EN 1 AN", "W"]],
-    "bas": [["LE RECORD", "W"], ["QUE PERSONNE NE BAT", "R"]]},
-  "remontada": {"video": "semaine1/lucarne_remontada.mp4", "fond": "medias/recits/drogba_2005/p02a.jpg", "x": 0.5,
-    "haut": "8 MARS 2017", "gros": [["4-0", "W"], ["PUIS…", "W"], ["6-1", "Y"]],
-    "bas": [["LA NUIT OÙ LE PSG", "W"], ["A TOUT PERDU", "R"]]},
-  "onze_secondes": {"video": "semaine1/lucarne_onze_secondes.mp4", "fond": "medias/recits/drogba_2005/p04b.jpg", "x": 0.55,
-    "haut": "MONDIAL 2002", "gros": [["11", "Y"], ["SECONDES", "W"]],
-    "bas": [["LE BUT LE PLUS RAPIDE", "W"], ["DE L'HISTOIRE", "R"]]},
-  "zidane": {"video": "semaine1/lucarne_zidane.mp4", "fond": "medias/recits/drogba_2005/p04c.jpg", "x": 0.6,
-    "haut": "BERLIN · 2006", "gros": [["ZIDANE", "Y"], ["CARTON", "W"], ["ROUGE", "R"]],
-    "bas": [["SA DERNIÈRE IMAGE", "W"], ["EN PRO", "W"]]},
-  "quiz_vraifaux": {"video": "semaine2/lucarne_quiz_vraifaux.mp4", "fond": "medias/recits/drogba_2005/p05d.jpg", "x": 0.45,
-    "haut": "QUIZ COUPE DU MONDE", "gros": [["VRAI", "Y"], ["OU", "W"], ["FAUX ?", "R"]],
-    "bas": [["3 QUESTIONS", "W"], ["TU AS COMBIEN ?", "Y"]], "lulu": true},
-  "quiz_joueur": {"video": "semaine2/lucarne_quiz_joueur.mp4", "fond": "medias/recits/drogba_2005/p04a.jpg", "x": 0.3,
-    "haut": "QUIZ", "gros": [["DEVINE", "W"], ["LE JOUEUR", "Y"]],
-    "bas": [["EN 3 INDICES", "W"], ["TU TROUVES AU 1ER ?", "R"]], "lulu": true},
-  "recit_drogba_2005": {"video": "recits/lucarne_recit_drogba_2005.mp4", "crf": 24, "maxrate": "3M", "fond": "medias/recits/drogba_2005/p01a.jpg", "x": 0.5,
-    "haut": "CÔTE D'IVOIRE · 2005", "gros": [["À GENOUX", "Y"]],
-    "bas": [["IL A DEMANDÉ À TOUT", "W"], ["UN PAYS EN GUERRE", "W"], ["DE POSER LES ARMES", "R"]]}
+ "senegal": {
+  "video": "semaine1/lucarne_senegal.mp4",
+  "fond": "medias/recits/drogba_2005/p02b.jpg",
+  "x": 0.5,
+  "haut": "31 MAI 2002",
+  "gros": [
+   [
+    "SÉNÉGAL",
+    "W"
+   ],
+   [
+    "1 - 0",
+    "Y"
+   ],
+   [
+    "FRANCE",
+    "W"
+   ]
+  ],
+  "bas": [
+   [
+    "LE PLUS GROS CHOC",
+    "W"
+   ],
+   [
+    "DU MONDIAL ?",
+    "R"
+   ]
+  ]
+ },
+ "messi": {
+  "video": "semaine1/lucarne_messi.mp4",
+  "fond": "medias/recits/drogba_2005/p05b.jpg",
+  "x": 0.3,
+  "haut": "MESSI · 2012",
+  "gros": [
+   [
+    "91",
+    "Y"
+   ],
+   [
+    "BUTS",
+    "W"
+   ],
+   [
+    "EN 1 AN",
+    "W"
+   ]
+  ],
+  "bas": [
+   [
+    "LE RECORD",
+    "W"
+   ],
+   [
+    "QUE PERSONNE NE BAT",
+    "R"
+   ]
+  ]
+ },
+ "remontada": {
+  "video": "semaine1/lucarne_remontada.mp4",
+  "fond": "medias/recits/drogba_2005/p02a.jpg",
+  "x": 0.5,
+  "haut": "8 MARS 2017",
+  "gros": [
+   [
+    "4-0",
+    "W"
+   ],
+   [
+    "PUIS…",
+    "W"
+   ],
+   [
+    "6-1",
+    "Y"
+   ]
+  ],
+  "bas": [
+   [
+    "LA NUIT OÙ LE PSG",
+    "W"
+   ],
+   [
+    "A TOUT PERDU",
+    "R"
+   ]
+  ]
+ },
+ "onze_secondes": {
+  "video": "semaine1/lucarne_onze_secondes.mp4",
+  "fond": "medias/recits/drogba_2005/p04b.jpg",
+  "x": 0.55,
+  "haut": "MONDIAL 2002",
+  "gros": [
+   [
+    "11",
+    "Y"
+   ],
+   [
+    "SECONDES",
+    "W"
+   ]
+  ],
+  "bas": [
+   [
+    "LE BUT LE PLUS RAPIDE",
+    "W"
+   ],
+   [
+    "DE L'HISTOIRE",
+    "R"
+   ]
+  ]
+ },
+ "zidane": {
+  "video": "semaine1/lucarne_zidane.mp4",
+  "fond": "medias/recits/drogba_2005/p04c.jpg",
+  "x": 0.6,
+  "haut": "BERLIN · 2006",
+  "gros": [
+   [
+    "ZIDANE",
+    "Y"
+   ],
+   [
+    "CARTON",
+    "W"
+   ],
+   [
+    "ROUGE",
+    "R"
+   ]
+  ],
+  "bas": [
+   [
+    "SA DERNIÈRE IMAGE",
+    "W"
+   ],
+   [
+    "EN PRO",
+    "W"
+   ]
+  ]
+ },
+ "quiz_vraifaux": {
+  "video": "semaine2/lucarne_quiz_vraifaux.mp4",
+  "fond": "medias/recits/drogba_2005/p05d.jpg",
+  "x": 0.45,
+  "haut": "QUIZ COUPE DU MONDE",
+  "gros": [
+   [
+    "VRAI",
+    "Y"
+   ],
+   [
+    "OU",
+    "W"
+   ],
+   [
+    "FAUX ?",
+    "R"
+   ]
+  ],
+  "bas": [
+   [
+    "3 QUESTIONS",
+    "W"
+   ],
+   [
+    "TU AS COMBIEN ?",
+    "Y"
+   ]
+  ],
+  "lulu": true
+ },
+ "quiz_joueur": {
+  "video": "semaine2/lucarne_quiz_joueur.mp4",
+  "fond": "medias/recits/drogba_2005/p04a.jpg",
+  "x": 0.3,
+  "haut": "QUIZ",
+  "gros": [
+   [
+    "DEVINE",
+    "W"
+   ],
+   [
+    "LE JOUEUR",
+    "Y"
+   ]
+  ],
+  "bas": [
+   [
+    "EN 3 INDICES",
+    "W"
+   ],
+   [
+    "TU TROUVES AU 1ER ?",
+    "R"
+   ]
+  ],
+  "lulu": true
+ },
+ "recit_drogba_2005": {
+  "video": "recits/lucarne_recit_drogba_2005.mp4",
+  "crf": 24,
+  "maxrate": "3M",
+  "fond": "medias/recits/drogba_2005/photo_drogba_9279.jpg",
+  "x": 0.46,
+  "haut": "CÔTE D'IVOIRE · 2005",
+  "gros": [
+   [
+    "DROGBA",
+    "Y"
+   ]
+  ],
+  "bas": [
+   [
+    "À GENOUX, IL A DEMANDÉ",
+    "W"
+   ],
+   [
+    "LA PAIX À TOUT UN PAYS",
+    "R"
+   ]
+  ],
+  "lum": 0.9,
+  "texte_y": 1000,
+  "credit": "Photo : Ailura, CC BY-SA 3.0 AT"
+ }
 }

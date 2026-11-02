@@ -68,3 +68,11 @@ Coût ElevenLabs du prototype : voix 2 × 1 285 crédits (2 prises), 44 images �
 8. Le match Sénégal–France 2002, raconté au format récit (à refaire avec ce format)
 9. L'arbitre qui a donné trois cartons jaunes au même joueur (Coupe du monde 2006)
 10. La Zambie championne d'Afrique 2012, à quelques kilomètres de la plage où son équipe avait péri en 1993
+
+## 6. Photos de vrais joueurs (Wikimedia Commons)
+
+- On n'utilise que des photos sous licence libre (CC BY, CC BY-SA ou domaine public) prises sur commons.wikimedia.org. Jamais de photos d'agence (Getty, AFP, Reuters).
+- Le crédit est **obligatoire** : « Photo : Auteur, licence ». Il apparaît à l'écran tant que la photo est visible (`"credits"` dans le JSON du récit), et doit aussi figurer dans la description du post.
+- Une photo CC BY-SA recadrée ou retravaillée (vignette, vidéo) doit rester sous la même licence. Ça n'empêche pas la monétisation.
+- Récit Drogba : photos de Ailura (Autriche – Côte d'Ivoire, 14 novembre 2012), CC BY-SA 3.0 AT, fichiers `Didier_Drogba_9279.JPG` et `Drogba_Baumgartlinger_9208.JPG`.
+- Commons limite le nombre de requêtes : télécharger les miniatures une par une, en espaçant les demandes (environ 15 s), en taille standard (500 ou 1280 px).

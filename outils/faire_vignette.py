@@ -13,24 +13,26 @@ BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 COUL = {"Y": Y, "W": W, "R": R}
 def F(s): return ImageFont.truetype(BOLD, s)
 
-def fond(chemin, x=0.5):
+def fond(chemin, x=0.5, lum=0.55):
     im = Image.open(os.path.join(RACINE, chemin)).convert("RGB")
     k = HH / im.height
     im = im.resize((round(im.width * k), HH), Image.LANCZOS)
     cx = int(x * im.width); cw = WW
     l = min(max(cx - cw // 2, 0), im.width - cw)
     im = im.crop((l, 0, l + cw, HH))
-    im = ImageEnhance.Brightness(im).enhance(0.55)
+    im = ImageEnhance.Brightness(im).enhance(lum)
     im = ImageEnhance.Contrast(im).enhance(1.15)
     return im
 
 def vignette(v):
-    im = fond(v["fond"], v.get("x", 0.5)) if v.get("fond") else Image.new("RGB", (WW, HH), BG)
-    # dégradé sombre derrière le texte
+    im = fond(v["fond"], v.get("x", 0.5), v.get("lum", 0.55)) if v.get("fond") else Image.new("RGB", (WW, HH), BG)
+    # dégradé sombre derrière le texte (texte_y : le texte commence plus bas, pour laisser voir un visage)
+    ty = v.get("texte_y", 430)
     ov = Image.new("L", (WW, HH), 0); d = ImageDraw.Draw(ov)
     for y in range(HH):
         a = 0
-        if 300 < y < 1650: a = int(150 * min(1, (y - 300) / 250, (1650 - y) / 250))
+        h0 = ty - 130
+        if h0 < y < 1650: a = int((150 if ty == 430 else 200) * min(1, (y - h0) / 250, (1650 - y) / 250))
         d.line((0, y, WW, y), fill=a)
     im = Image.composite(Image.new("RGB", (WW, HH), (0, 0, 0)), im, ov)
     d = ImageDraw.Draw(im)
@@ -38,7 +40,7 @@ def vignette(v):
     d.rounded_rectangle((60, 270, 400, 360), 22, fill=Y)
     d.text((88, 282), "LUCARNE", font=F(60), fill=BG)
     # accroche du haut (date / contexte)
-    y = 430
+    y = ty
     if v.get("haut"):
         t = v["haut"]; f = F(64)
         tw = d.textlength(t, font=f)
@@ -59,6 +61,9 @@ def vignette(v):
         tw = d.textlength(txt, font=F(s))
         d.text(((WW - tw) / 2, y), txt, font=F(s), fill=COUL[c], stroke_width=6, stroke_fill=(0, 0, 0))
         y += int(s * 1.2)
+    if v.get("credit"):
+        tw = d.textlength(v["credit"], font=F(28))
+        d.text((WW - tw - 30, HH - 70), v["credit"], font=F(28), fill=W, stroke_width=3, stroke_fill=(0, 0, 0))
     if v.get("lulu"):
         lulu = Image.open(os.path.join(RACINE, "medias/mascotte_lulu.png")).resize((300, 300))
         im.paste(lulu, (WW - 330, 1540), lulu)

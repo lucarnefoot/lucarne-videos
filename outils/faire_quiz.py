@@ -9,6 +9,8 @@ err=subprocess.run(["ffmpeg","-hide_banner","-nostats","-i",mp3,"-af","silencede
 st=[float(x) for x in re.findall(r"silence_start: ([0-9.]+)",err)]; en=[float(x) for x in re.findall(r"silence_end: ([0-9.]+)",err)]
 # ignore un silence initial / final
 pairs=[(a,b) for a,b in zip(st,en) if a>0.2 and b<D-0.2]
+# "ignorer_pauses" : indices (dans les pauses détectées) de silences naturels qui ne sont pas des <break>
+pairs=[p for k,p in enumerate(pairs) if k not in spec.get("ignorer_pauses",[])]
 assert len(pairs)==spec["pauses"], f"pauses détectées {len(pairs)} != attendues {spec['pauses']} : {pairs}"
 def t(at):
     kind,i=at

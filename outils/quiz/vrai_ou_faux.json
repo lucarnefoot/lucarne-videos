@@ -1,6 +1,9 @@
 {
  "bandeau": "QUIZ",
  "pauses": 7,
+ "ignorer_pauses": [
+  4
+ ],
  "scenes": [
   {
    "at": [

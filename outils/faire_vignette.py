@@ -60,8 +60,18 @@ def vignette(v):
         d.text(((WW - tw) / 2, y), txt, font=F(s), fill=COUL[c], stroke_width=6, stroke_fill=(0, 0, 0))
         y += int(s * 1.2)
     if v.get("lulu"):
-        lulu = Image.open(os.path.join(RACINE, "medias/mascotte_lulu.png")).resize((330, 330))
-        im.paste(lulu, (WW - 360, 1330), lulu)
+        lulu = Image.open(os.path.join(RACINE, "medias/mascotte_lulu.png")).resize((300, 300))
+        im.paste(lulu, (WW - 330, 1540), lulu)
+    return im
+
+def ecran_fin():
+    # écran de fin : logo + « Abonne-toi », pour qu'on retienne la marque
+    im = Image.new("RGB", (WW, HH), BG); d = ImageDraw.Draw(im)
+    logo = Image.open(os.path.join(RACINE, "medias/avatar_800.png")).convert("RGB").resize((640, 640))
+    m = Image.new("L", (640, 640), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, 639, 639), 60, fill=255)
+    im.paste(logo, ((WW - 640) // 2, 470), m)
+    for t, s, c, y in (("ABONNE-TOI", 130, Y, 1180), ("@lucarnefoot333", 58, W, 1360), ("1 vidéo foot folle chaque jour", 44, W, 1450)):
+        tw = d.textlength(t, font=F(s)); d.text(((WW - tw) / 2, y), t, font=F(s), fill=c)
     return im
 
 cfg = json.load(open(sys.argv[1]))
@@ -74,9 +84,18 @@ for nom in noms:
     if v.get("video"):
         src = os.path.join(RACINE, v["video"])
         tmp = src + ".tmp.mp4"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-i", jpg, "-filter_complex",
-                        "[1:v]scale=1080:1920,format=yuv420p[c];[0:v][c]overlay=0:0:enable='lt(n,2)'[v]",
-                        "-map", "[v]", "-map", "0:a", "-c:v", "libx264", "-preset", "slow", "-crf", "21",
-                        "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", tmp], check=True)
+        fin = os.path.join(RACINE, "medias/vignettes/_fin_abonne.png")
+        ecran_fin().save(fin)
+        # vignette sur les 2 premières images + écran logo « Abonne-toi » de 1,5 s à la fin
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-i", jpg,
+                        "-loop", "1", "-framerate", "30", "-t", "1.5", "-i", fin,
+                        "-f", "lavfi", "-t", "1.5", "-i", "anullsrc=r=44100:cl=mono", "-filter_complex",
+                        "[1:v]scale=1080:1920,format=yuv420p[c];[0:v][c]overlay=0:0:enable='lt(n,2)',setsar=1,format=yuv420p[v0];"
+                        "[2:v]scale=1080:1920,setsar=1,format=yuv420p,fade=t=in:st=0:d=0.2[v1];"
+                        "[0:a]aformat=sample_rates=44100:channel_layouts=mono[a0];[3:a]aformat=sample_rates=44100:channel_layouts=mono[a1];"
+                        "[v0][a0][v1][a1]concat=n=2:v=1:a=1[v][a]",
+                        "-map", "[v]", "-map", "[a]", "-r", "30", "-c:v", "libx264", "-preset", "slow", "-crf", str(v.get("crf", 21))]
+                       + (["-maxrate", v["maxrate"], "-bufsize", "6M"] if v.get("maxrate") else [])
+                       + ["-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", tmp], check=True)
         os.replace(tmp, src)
     print("ok", nom)

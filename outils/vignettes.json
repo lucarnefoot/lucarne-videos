@@ -20,7 +20,7 @@
   "quiz_joueur": {"video": "semaine2/lucarne_quiz_joueur.mp4", "fond": "medias/recits/drogba_2005/p04a.jpg", "x": 0.3,
     "haut": "QUIZ", "gros": [["DEVINE", "W"], ["LE JOUEUR", "Y"]],
     "bas": [["EN 3 INDICES", "W"], ["TU TROUVES AU 1ER ?", "R"]], "lulu": true},
-  "recit_drogba_2005": {"video": "recits/lucarne_recit_drogba_2005.mp4", "fond": "medias/recits/drogba_2005/p01a.jpg", "x": 0.5,
+  "recit_drogba_2005": {"video": "recits/lucarne_recit_drogba_2005.mp4", "crf": 24, "maxrate": "3M", "fond": "medias/recits/drogba_2005/p01a.jpg", "x": 0.5,
     "haut": "CÔTE D'IVOIRE · 2005", "gros": [["À GENOUX", "Y"]],
     "bas": [["IL A DEMANDÉ À TOUT", "W"], ["UN PAYS EN GUERRE", "W"], ["DE POSER LES ARMES", "R"]]}
 }

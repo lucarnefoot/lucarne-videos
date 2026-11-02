@@ -229,5 +229,123 @@
   "lum": 0.9,
   "texte_y": 1000,
   "credit": "Photo : Ailura, CC BY-SA 3.0 AT"
+ },
+ "recit_zambie_2012": {
+  "crf": 24,
+  "maxrate": "3M",
+  "video": "recits/lucarne_recit_zambie_2012.mp4",
+  "fond": "medias/recits/zambie_2012/z07a.jpg",
+  "x": 0.5,
+  "lum": 0.7,
+  "haut": "ZAMBIE · 1993 – 2012",
+  "gros": [
+   [
+    "19 ANS",
+    "Y"
+   ],
+   [
+    "APRÈS",
+    "W"
+   ]
+  ],
+  "bas": [
+   [
+    "REVENUS GAGNER LÀ OÙ",
+    "W"
+   ],
+   [
+    "LEUR ÉQUIPE AVAIT DISPARU",
+    "R"
+   ]
+  ]
+ },
+ "recit_danemark_1992": {
+  "crf": 24,
+  "maxrate": "3M",
+  "video": "recits/lucarne_recit_danemark_1992.mp4",
+  "fond": "medias/recits/danemark_1992/d01a.jpg",
+  "x": 0.5,
+  "lum": 0.65,
+  "haut": "EURO 1992",
+  "gros": [
+   [
+    "PAS",
+    "W"
+   ],
+   [
+    "QUALIFIÉS…",
+    "W"
+   ],
+   [
+    "CHAMPIONS !",
+    "Y"
+   ]
+  ],
+  "bas": [
+   [
+    "DE LA PLAGE",
+    "W"
+   ],
+   [
+    "AU TITRE EUROPÉEN",
+    "R"
+   ]
+  ]
+ },
+ "recit_leicester_2016": {
+  "crf": 24,
+  "maxrate": "3M",
+  "video": "recits/lucarne_recit_leicester_2016.mp4",
+  "fond": "medias/recits/leicester_2016/photo_vardy_2015.jpg",
+  "x": 0.52,
+  "lum": 0.9,
+  "texte_y": 1000,
+  "haut": "LEICESTER · 2016",
+  "gros": [
+   [
+    "5000 CONTRE 1",
+    "Y"
+   ]
+  ],
+  "bas": [
+   [
+    "DERNIERS UN AN AVANT",
+    "W"
+   ],
+   [
+    "CHAMPIONS D'ANGLETERRE",
+    "R"
+   ]
+  ],
+  "credit": "Photo : Pioeb, CC BY-SA 4.0"
+ },
+ "recit_istanbul_2005": {
+  "crf": 24,
+  "maxrate": "3M",
+  "video": "recits/lucarne_recit_istanbul_2005.mp4",
+  "fond": "medias/recits/istanbul_2005/i03a.jpg",
+  "x": 0.5,
+  "lum": 0.75,
+  "haut": "ISTANBUL · 2005",
+  "gros": [
+   [
+    "0 - 3",
+    "R"
+   ],
+   [
+    "À LA PAUSE",
+    "W"
+   ]
+  ],
+  "bas": [
+   [
+    "ILS ONT QUAND MÊME GAGNÉ",
+    "W"
+   ],
+   [
+    "LA LIGUE DES CHAMPIONS",
+    "Y"
+   ]
+  ]
  }
 }

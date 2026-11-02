@@ -154,7 +154,7 @@ N = int(TOT * SR); tt = np.arange(N) / SR
 def env_fade(x, a, b, f=0.6):
     return np.clip(np.minimum((x - a) / f, (b - x) / f), 0, 1)
 musique = np.zeros(N)
-majeur = [(24.5, 29.6), (52.6, TOT)]
+majeur = [(a, TOT if b is None else b) for a, b in cfg.get("majeur", [[24.5, 29.6], [52.6, None]])]
 is_maj = np.zeros(N, bool)
 for a, b in majeur: is_maj |= (tt >= a) & (tt < b)
 lfo = 0.7 + 0.3 * np.sin(2 * np.pi * 0.12 * tt)
@@ -165,7 +165,7 @@ maj = np.sin(2 * np.pi * 138.59 * tt) * 0.12 + np.sin(2 * np.pi * 277.18 * tt) *
 musique += np.where(is_maj, maj, mineur)
 musique *= lfo * np.clip(tt / 1.5, 0, 1) * np.clip((TOT - tt) / 1.5, 0, 1)
 # battements de cœur pendant le penalty
-for a, b in [(16.8, 24.4)]:
+for a, b in cfg.get("coeur", [[16.8, 24.4]]):
     k = a
     while k < b:
         for dt, amp in ((0, 1), (0.22, 0.6)):

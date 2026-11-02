@@ -44,8 +44,8 @@ Structure type du script (environ 170 à 190 mots) :
 
 1. Écrire le script (structure ci-dessus) et générer la voix : Oscar Doré, modèle `eleven_v4`.
 2. Transcrire la voix avec Scribe pour avoir l'horodatage mot à mot, à enregistrer dans `outils/recits/<nom>_mots.json`.
-3. Générer 10 à 12 images IA (une par moment du récit). **Demander du 9:16 dans les réglages du nœud**, pas seulement dans le texte : le prototype est sorti en 16:9 et a dû être recadré.
-4. Écrire `outils/recits/<nom>.json` : liste des plans `[début_s, image, x_départ, x_arrivée, zoom_départ, zoom_arrivée]` calés sur les mots, plus les temps forts (impact, sifflet).
+3. Générer 10 à 12 images IA (une par moment du récit). **Demander du 9:16 dans les réglages du nœud** (`creative_add_flow_node` avec `model_parameters: {aspect_ratio: "9:16"}`, puis `creative_run_flow_nodes`) : on obtient du 720x1280 natif. Avec `creative_generate_image` seul, l'image sort en 16:9.
+4. Écrire `outils/recits/<nom>.json` : liste des plans `[début_s, image, x_départ, x_arrivée, zoom_départ, zoom_arrivée]` calés sur les mots, plus les temps forts (impact, sifflet), `coeur` (fenêtres de battements de cœur) et `majeur` (fenêtres où la nappe passe en majeur, `null` = jusqu'à la fin).
 5. `python3 outils/faire_recit.py outils/recits/<nom>.json`. Le rendu prend environ 4 min et produit environ 25 Mo.
 
 Coût ElevenLabs du prototype : voix 2 × 1 285 crédits (2 prises), 44 images × 190 crédits, transcription 365 crédits, soit environ 11 300 crédits. En production, 1 prise de voix et 2 variantes d'image par plan suffisent, soit environ 5 800 crédits par vidéo.
@@ -76,3 +76,7 @@ Coût ElevenLabs du prototype : voix 2 × 1 285 crédits (2 prises), 44 images �
 - Une photo CC BY-SA recadrée ou retravaillée (vignette, vidéo) doit rester sous la même licence. Ça n'empêche pas la monétisation.
 - Récit Drogba : photos de Ailura (Autriche – Côte d'Ivoire, 14 novembre 2012), CC BY-SA 3.0 AT, fichiers `Didier_Drogba_9279.JPG` et `Drogba_Baumgartlinger_9208.JPG`.
 - Commons limite le nombre de requêtes : télécharger les miniatures une par une, en espaçant les demandes (environ 15 s), en taille standard (500 ou 1280 px).
+
+## 7. Programmation Buffer
+
+`python3 outils/buffer_programmer.py --liste` liste la file ; `python3 outils/buffer_programmer.py <dueAt> <url_video> <titre> <description.txt>` programme YouTube + TikTok en sautant un réseau déjà programmé au même horaire. Attention : sans pagination l'API Buffer ne renvoie que 10 posts.

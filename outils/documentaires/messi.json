@@ -1,0 +1,1978 @@
+{
+ "titre": "MESSI — Le garçon qui ne devait pas grandir",
+ "images": "medias/documentaires/messi",
+ "sortie": "documentaires/lucarne_doc_messi.mp4",
+ "credits": {
+  "finale_046": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "finale_070": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "finale_090": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "finale_093": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "finale_222": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "finale_305": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "finale_076": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "egypte_105": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "egypte_178": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "egypte_226": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "egypte_312": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "egypte_268": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "egypte_lautaro": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "miami_2025": "Photo : Andy Witchger, CC BY 2.0",
+  "miami_nycfc_051": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "miami_nycfc_081": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "miami_ne_143": "Photo : Bryan Berlin, CC BY-SA 4.0",
+  "miami_leaguescup": "Photo : Barcaforever69, CC0",
+  "ronaldo_messi_2011": "Photo : Fanny Schertzer, CC BY 3.0",
+  "arg_suisse_2012": "Photo : Fanny Schertzer, CC BY 3.0",
+  "arg_xhaka_2012": "Photo : Ludovic Péron, CC BY-SA 3.0",
+  "arg_2010": "Photo : Saadick Dhansay, CC BY 2.0",
+  "arg_2010b": "Photo : sdhansay, CC BY 2.0",
+  "arg_2018_penalty": "Photo : Voltmetro, CC BY-SA 4.0",
+  "arg_2022_mexique": "Photo : Hossein Zohrevand, CC BY 4.0",
+  "arg_2022_supporters": "Photo : Bookish Worm, CC BY-SA 4.0",
+  "barca_2011_poty": "Photo : Christopher Johnson, CC BY-SA 2.0",
+  "barca_2011_trio": "Photo : Christopher Johnson, CC BY-SA 2.0",
+  "barca_2009_carrera": "Photo : Alejandro Ramos, CC BY-SA 2.0",
+  "barca_2009_takasu": "Photo : Tsutomu Takasu, CC BY 2.0",
+  "barca_2009_gamper": "Photo : Tsutomu Takasu, CC BY 2.0",
+  "barca_2010_valladolid": "Photo : Oemar, CC BY 2.0",
+  "barca_2011_arsenal": "Photo : m.caimary, CC BY 2.0",
+  "barca_2011_mallorca": "Photo : Juan C. Niño, CC BY-SA 2.0",
+  "barca_2007_gol": "Photo : chantrybee, CC BY 2.0",
+  "barca_2014_a": "Photo : Ank Kumar, CC BY-SA 4.0",
+  "barca_2015_cf": "Photo : Jose Luis Hidalgo R., CC BY 2.0",
+  "barca_2014_granada": "Photo : Lluís, CC BY 2.0",
+  "barca_psg_2017a": "Photo : Hugo Pérez Marsol, CC BY 2.0",
+  "psg_trio_2021": "Photo : Bigmatbasket, CC BY-SA 4.0",
+  "psg_trio_2022": "Photo : Liondartois, CC BY-SA 4.0",
+  "predio_03": "Photo : BugWarp, CC BY-SA 4.0",
+  "predio_09": "Photo : BugWarp, CC BY-SA 4.0",
+  "mural_barcelone": "Photo : Enric, CC BY 4.0",
+  "rosario_coucher": "Photo : Scarabinol, CC BY-SA 4.0",
+  "rosario_nuit": "Photo : Luis H. Vaca, CC BY-SA 4.0",
+  "rosario_parana": "Photo : Falk2, CC BY-SA 4.0",
+  "rosario_1914": "Photo : Keystone View Company, domaine public",
+  "campnou_nuit": "Photo : JaflaumS05, CC BY-SA 4.0",
+  "campnou_aerien": "Photo : Oh-Barcelona.com, CC BY 2.0",
+  "campnou_2014_03": "Photo : Ank Kumar, CC BY-SA 4.0",
+  "campnou_2017": "Photo : Suicasmo, CC BY-SA 4.0",
+  "campnou_pano": "Photo : Ivan Mlinaric, CC BY 2.0",
+  "campnou_2005": "Photo : Mutari, domaine public",
+  "masia_2012": "Photo : Oh-Barcelona.com, CC BY 2.0",
+  "masia_canplanas": "Photo : MARIA ROSA FERRE, CC BY-SA 2.0"
+ },
+ "blocs": [
+  {
+   "voix": "medias/documentaires/messi/voix/00.mp3",
+   "texte": "[softly] Rosario, Argentine. Un soir de 1998.\nDans une petite maison du quartier de La Bajada, un garçon de onze ans s'assoit au bord de son lit. Il relève son pantalon de pyjama… et il se pique la jambe. Tout seul.\nIl le fera tous les soirs. Pendant trois ans.\nLes médecins ont été clairs : sans ce traitement, il ne grandira presque plus.\n... Ce garçon, on le disait trop petit pour le football.\nIl va devenir le plus grand joueur de son époque. Peut-être de tous les temps.\n[excited] Voici l'histoire de Lionel Messi.",
+   "avant": 2.0,
+   "apres": 0.6,
+   "plans": [
+    {
+     "p": 0,
+     "o": 0.0,
+     "img": "rosario_nuit",
+     "mv": [
+      0.35,
+      0.5,
+      1.15,
+      0.6,
+      0.5,
+      1.15
+     ],
+     "legende": "ROSARIO · ARGENTINE"
+    },
+    {
+     "p": 1,
+     "o": 0.0,
+     "img": "ia_rue",
+     "mv": [
+      0.5,
+      0.55,
+      1.0,
+      0.5,
+      0.55,
+      1.15
+     ]
+    },
+    {
+     "p": 2,
+     "o": 0.0,
+     "img": "ia_dortoir",
+     "mv": [
+      0.45,
+      0.5,
+      1.0,
+      0.45,
+      0.5,
+      1.2
+     ]
+    },
+    {
+     "p": 3,
+     "o": 0.0,
+     "img": "ia_seringue",
+     "mv": [
+      0.5,
+      0.5,
+      1.05,
+      0.5,
+      0.5,
+      1.3
+     ]
+    },
+    {
+     "p": 6,
+     "o": 0.0,
+     "img": "ia_seringue",
+     "mv": [
+      0.35,
+      0.5,
+      1.35,
+      0.6,
+      0.5,
+      1.35
+     ],
+     "noir_blanc": true
+    },
+    {
+     "p": 8,
+     "o": 0.0,
+     "img": "ia_toise",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.2
+     ]
+    },
+    {
+     "p": 9,
+     "o": 0.0,
+     "img": "ia_terrain_terre",
+     "mv": [
+      0.5,
+      0.5,
+      1.18,
+      0.5,
+      0.5,
+      1.02
+     ]
+    },
+    {
+     "p": 10,
+     "o": 0.0,
+     "img": "finale_070",
+     "mv": [
+      0.58,
+      0.42,
+      1.0,
+      0.58,
+      0.42,
+      1.25
+     ]
+    },
+    {
+     "p": 11,
+     "o": 0.0,
+     "img": "egypte_178",
+     "mv": [
+      0.5,
+      0.45,
+      1.05,
+      0.5,
+      0.45,
+      1.2
+     ]
+    },
+    {
+     "p": 12,
+     "o": 0.0,
+     "img": "barca_2011_poty",
+     "mv": [
+      0.5,
+      0.4,
+      1.0,
+      0.5,
+      0.4,
+      1.3
+     ]
+    }
+   ]
+  },
+  {
+   "duree": 6.5,
+   "plans": [
+    {
+     "k": "titre",
+     "titre": "MESSI",
+     "sous": "Le garçon qui ne devait pas grandir",
+     "fond": "finale_070",
+     "lum": 0.3,
+     "mv": [
+      0.58,
+      0.45,
+      1.1,
+      0.58,
+      0.45,
+      1.3
+     ]
+    }
+   ]
+  },
+  {
+   "duree": 4.2,
+   "plans": [
+    {
+     "k": "carton",
+     "num": "CHAPITRE 1",
+     "titre": "ROSARIO",
+     "annees": "1987 – 2000",
+     "fond": "rosario_coucher",
+     "lum": 0.28,
+     "mv": [
+      0.5,
+      0.5,
+      1.05,
+      0.5,
+      0.5,
+      1.18
+     ]
+    }
+   ]
+  },
+  {
+   "voix": "medias/documentaires/messi/voix/01.mp3",
+   "texte": "Lionel Andrés Messi naît le 24 juin 1987, à Rosario. Son père, Jorge, travaille dans une aciérie. Sa mère, Celia, dans une usine. Une famille modeste, avec deux grands frères, et un ballon qui ne quitte jamais la maison.\nLa première à croire en lui, c'est sa grand-mère, Celia. C'est elle qui l'emmène, à quatre ans, au petit club du quartier, Grandoli. Un jour, il manque un joueur. Elle insiste auprès de l'entraîneur : « Faites-le jouer. »\nLe petit touche le ballon… et ne le lâche plus.\nÀ six ans, il rejoint Newell's Old Boys, le club qu'aime toute sa famille. Son équipe de jeunes ne perd presque jamais. En ville, on l'appelle « la machine de 87 ».\n[softly] Quand il a dix ans, sa grand-mère meurt. Depuis, après chaque but, il lève les deux index vers le ciel. C'est pour elle.\nMais cette même année, un autre problème apparaît. Lionel ne grandit plus. Le docteur Diego Schwarzstein pose le diagnostic : un déficit en hormone de croissance.\nLe traitement existe. Mais il coûte environ mille dollars par mois. Pour la famille Messi, c'est impossible. Et aucun club argentin n'accepte de payer tout le traitement d'un enfant aussi petit.",
+   "plans": [
+    {
+     "p": 0,
+     "o": 0.0,
+     "img": "rosario_parana",
+     "mv": [
+      0.3,
+      0.5,
+      1.12,
+      0.6,
+      0.5,
+      1.12
+     ],
+     "legende": "ROSARIO · 24 JUIN 1987"
+    },
+    {
+     "p": 1,
+     "o": 0.0,
+     "img": "ia_acierie",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.15
+     ]
+    },
+    {
+     "p": 3,
+     "o": 0.0,
+     "img": "ia_rue",
+     "mv": [
+      0.6,
+      0.5,
+      1.12,
+      0.4,
+      0.5,
+      1.12
+     ]
+    },
+    {
+     "p": 4,
+     "o": 0.0,
+     "img": "ia_grandmere",
+     "mv": [
+      0.5,
+      0.55,
+      1.0,
+      0.5,
+      0.55,
+      1.18
+     ]
+    },
+    {
+     "p": 6,
+     "o": 0.0,
+     "img": "ia_terrain_terre",
+     "mv": [
+      0.35,
+      0.55,
+      1.15,
+      0.6,
+      0.55,
+      1.15
+     ]
+    },
+    {
+     "p": 8,
+     "o": 0.0,
+     "img": "ia_terrain_terre",
+     "mv": [
+      0.6,
+      0.6,
+      1.25,
+      0.6,
+      0.6,
+      1.5
+     ]
+    },
+    {
+     "p": 10,
+     "o": 0.0,
+     "img": "ia_terrain_terre",
+     "mv": [
+      0.6,
+      0.5,
+      1.2,
+      0.4,
+      0.5,
+      1.2
+     ],
+     "legende": "NEWELL'S OLD BOYS · 1993"
+    },
+    {
+     "p": 12,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": "87",
+     "libelle": "« LA MACHINE DE 87 »",
+     "sous": "l'équipe de jeunes de Newell's",
+     "fond": "ia_terrain_terre",
+     "taille": 360,
+     "compte": 0.1
+    },
+    {
+     "p": 13,
+     "o": 0.0,
+     "img": "ia_ciel",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.15
+     ]
+    },
+    {
+     "p": 14,
+     "o": 0.0,
+     "img": "barca_2015_cf",
+     "mv": [
+      0.5,
+      0.4,
+      1.05,
+      0.5,
+      0.4,
+      1.25
+     ]
+    },
+    {
+     "p": 16,
+     "o": 0.0,
+     "img": "ia_toise",
+     "mv": [
+      0.4,
+      0.5,
+      1.25,
+      0.55,
+      0.5,
+      1.25
+     ]
+    },
+    {
+     "p": 18,
+     "o": 0.0,
+     "k": "citation",
+     "texte": "Déficit en hormone\nde croissance",
+     "qui": "LE DIAGNOSTIC",
+     "fond": "ia_toise",
+     "lum": 0.3
+    },
+    {
+     "p": 20,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": 1000,
+     "suffixe": " $",
+     "libelle": "PAR MOIS",
+     "sous": "le coût du traitement",
+     "fond": "ia_seringue",
+     "lum": 0.25
+    },
+    {
+     "p": 22,
+     "o": 0.0,
+     "img": "rosario_1914",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.15
+     ],
+     "noir_blanc": true
+    }
+   ]
+  },
+  {
+   "duree": 4.2,
+   "plans": [
+    {
+     "k": "carton",
+     "num": "CHAPITRE 2",
+     "titre": "LA SERVIETTE EN PAPIER",
+     "annees": "2000 – 2004",
+     "fond": "ia_serviette",
+     "lum": 0.28,
+     "mv": [
+      0.5,
+      0.5,
+      1.05,
+      0.5,
+      0.5,
+      1.18
+     ]
+    }
+   ]
+  },
+  {
+   "voix": "medias/documentaires/messi/voix/02.mp3",
+   "texte": "En septembre 2000, Lionel a treize ans. Avec son père, il prend l'avion pour un essai à Barcelone.\nSur le terrain, les éducateurs du Barça n'en croient pas leurs yeux. Le gamin est minuscule… mais personne ne lui prend le ballon.\nSeulement, les semaines passent, et le club hésite. Faire venir un enfant étranger de treize ans, avec toute sa famille, et payer son traitement ? Personne n'a jamais fait ça.\nAlors, le 14 décembre 2000, dans un club de tennis de Barcelone, Charly Rexach, le directeur sportif, attrape ce qu'il a sous la main. Une serviette en papier.\nIl y écrit un engagement. Il signe.\n... Ce bout de papier va changer l'histoire du football.\nEn février 2001, Lionel s'installe à Barcelone. Mais les débuts sont durs. Une partie de sa famille repart à Rosario. Il se blesse. Pendant des mois, il joue très peu à cause des règles sur les transferts de mineurs. Il est timide, il parle à peine, il a le mal du pays.\n[softly] Le soir, il se fait toujours ses piqûres. Mais il ne rentre pas.\nIl a choisi de rester.",
+   "plans": [
+    {
+     "p": 0,
+     "o": 0.0,
+     "img": "ia_avion",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.15
+     ],
+     "legende": "SEPTEMBRE 2000"
+    },
+    {
+     "p": 1,
+     "o": 0.0,
+     "k": "carte",
+     "points": [
+      {
+       "nom": "ROSARIO",
+       "sous": "Argentine",
+       "ll": [
+        -60.65,
+        -32.95
+       ]
+      },
+      {
+       "nom": "BARCELONE",
+       "sous": "Espagne",
+       "ll": [
+        2.17,
+        41.39
+       ],
+       "dx": -260
+      }
+     ],
+     "vue0": [
+      -58,
+      -28,
+      70
+     ],
+     "vue1": [
+      -30,
+      8,
+      125
+     ],
+     "courbe": 0.1
+    },
+    {
+     "p": 2,
+     "o": 0.0,
+     "img": "masia_canplanas",
+     "mv": [
+      0.35,
+      0.5,
+      1.12,
+      0.6,
+      0.5,
+      1.12
+     ]
+    },
+    {
+     "p": 3,
+     "o": 0.0,
+     "img": "ia_terrain_masia",
+     "mv": [
+      0.5,
+      0.6,
+      1.0,
+      0.5,
+      0.6,
+      1.2
+     ]
+    },
+    {
+     "p": 5,
+     "o": 0.0,
+     "img": "campnou_2005",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.15
+     ],
+     "noir_blanc": true
+    },
+    {
+     "p": 8,
+     "o": 0.0,
+     "img": "ia_serviette",
+     "mv": [
+      0.4,
+      0.5,
+      1.12,
+      0.6,
+      0.5,
+      1.12
+     ],
+     "legende": "BARCELONE · 14 DÉCEMBRE 2000"
+    },
+    {
+     "p": 9,
+     "o": 0.0,
+     "img": "ia_serviette",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.35
+     ]
+    },
+    {
+     "p": 12,
+     "o": 0.0,
+     "k": "citation",
+     "texte": "« Ce bout de papier\nva changer l'histoire\ndu football. »",
+     "fond": "ia_serviette",
+     "lum": 0.22
+    },
+    {
+     "p": 13,
+     "o": 0.0,
+     "img": "masia_2012",
+     "mv": [
+      0.6,
+      0.5,
+      1.12,
+      0.4,
+      0.5,
+      1.12
+     ],
+     "legende": "LA MASIA · FÉVRIER 2001"
+    },
+    {
+     "p": 15,
+     "o": 0.0,
+     "img": "ia_avion",
+     "mv": [
+      0.5,
+      0.5,
+      1.18,
+      0.5,
+      0.5,
+      1.02
+     ]
+    },
+    {
+     "p": 17,
+     "o": 0.0,
+     "img": "ia_terrain_masia",
+     "mv": [
+      0.6,
+      0.5,
+      1.2,
+      0.4,
+      0.5,
+      1.2
+     ]
+    },
+    {
+     "p": 18,
+     "o": 0.0,
+     "img": "ia_dortoir",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.2
+     ]
+    },
+    {
+     "p": 19,
+     "o": 0.0,
+     "img": "ia_seringue",
+     "mv": [
+      0.5,
+      0.5,
+      1.15,
+      0.5,
+      0.5,
+      1.35
+     ]
+    },
+    {
+     "p": 21,
+     "o": 0.0,
+     "img": "ia_dortoir",
+     "mv": [
+      0.5,
+      0.5,
+      1.25,
+      0.5,
+      0.5,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "duree": 4.2,
+   "plans": [
+    {
+     "k": "carton",
+     "num": "CHAPITRE 3",
+     "titre": "L'ENVOL",
+     "annees": "2004 – 2008",
+     "fond": "campnou_2014_03",
+     "lum": 0.28,
+     "mv": [
+      0.5,
+      0.5,
+      1.05,
+      0.5,
+      0.5,
+      1.18
+     ]
+    }
+   ]
+  },
+  {
+   "voix": "medias/documentaires/messi/voix/03.mp3",
+   "texte": "À La Masia, le centre de formation du Barça, il grandit enfin. Il gagne près de trente centimètres. Avec Cesc Fàbregas et Gerard Piqué, il forme ce qu'on appellera plus tard la « Baby Dream Team ».\nLe 16 octobre 2004, il fait ses débuts officiels en équipe première. Il a dix-sept ans.\nLe 1er mai 2005, Ronaldinho, la star du club, lui offre une passe. Messi lobe le gardien. Premier but. Ronaldinho le prend sur son dos, comme un grand frère.\n[excited] Puis, le 18 avril 2007, contre Getafe, il part de son propre camp. Il élimine un joueur, deux, trois, quatre… puis le gardien. Le stade est debout. Tout le monde pense la même chose : c'est le but de Maradona en 1986.\nUn an plus tard, il est champion olympique avec l'Argentine, à Pékin.\nLe petit garçon de Rosario n'est plus une promesse. C'est un phénomène.",
+   "plans": [
+    {
+     "p": 0,
+     "o": 0.0,
+     "img": "masia_2012",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.15
+     ]
+    },
+    {
+     "p": 1,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": 30,
+     "suffixe": " CM",
+     "libelle": "GAGNÉS À LA MASIA",
+     "fond": "masia_canplanas",
+     "lum": 0.25
+    },
+    {
+     "p": 2,
+     "o": 0.0,
+     "img": "ia_terrain_masia",
+     "mv": [
+      0.35,
+      0.5,
+      1.12,
+      0.6,
+      0.5,
+      1.12
+     ]
+    },
+    {
+     "p": 3,
+     "o": 0.0,
+     "img": "campnou_pano",
+     "mv": [
+      0.2,
+      0.5,
+      1.6,
+      0.8,
+      0.5,
+      1.6
+     ],
+     "legende": "16 OCTOBRE 2004 · 17 ANS"
+    },
+    {
+     "p": 5,
+     "o": 0.0,
+     "img": "barca_2010_valladolid",
+     "mv": [
+      0.5,
+      0.3,
+      1.0,
+      0.5,
+      0.3,
+      1.2
+     ]
+    },
+    {
+     "p": 8,
+     "o": 0.0,
+     "img": "campnou_2017",
+     "mv": [
+      0.5,
+      0.5,
+      1.18,
+      0.5,
+      0.5,
+      1.02
+     ]
+    },
+    {
+     "p": 9,
+     "o": 0.0,
+     "img": "barca_2007_gol",
+     "mv": [
+      0.35,
+      0.45,
+      1.3,
+      0.6,
+      0.45,
+      1.3
+     ]
+    },
+    {
+     "p": 10,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": 5,
+     "libelle": "ADVERSAIRES ÉLIMINÉS, GARDIEN COMPRIS",
+     "fond": "campnou_aerien",
+     "lum": 0.25,
+     "compte": 2.2
+    },
+    {
+     "p": 12,
+     "o": 0.0,
+     "img": "campnou_2014_03",
+     "mv": [
+      0.5,
+      0.4,
+      1.0,
+      0.5,
+      0.4,
+      1.2
+     ]
+    },
+    {
+     "p": 13,
+     "o": 0.0,
+     "k": "citation",
+     "texte": "« C'est le but\nde Maradona en 1986. »",
+     "fond": "campnou_nuit",
+     "lum": 0.25
+    },
+    {
+     "p": 14,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": "OR",
+     "libelle": "JEUX OLYMPIQUES DE PÉKIN 2008",
+     "sous": "champion olympique avec l'Argentine",
+     "fond": "arg_2010b",
+     "lum": 0.22,
+     "compte": 0.1,
+     "taille": 300
+    },
+    {
+     "p": 15,
+     "o": 0.0,
+     "img": "barca_2009_gamper",
+     "mv": [
+      0.5,
+      0.4,
+      1.0,
+      0.5,
+      0.4,
+      1.25
+     ]
+    }
+   ]
+  },
+  {
+   "duree": 4.2,
+   "plans": [
+    {
+     "k": "carton",
+     "num": "CHAPITRE 4",
+     "titre": "LE ROI DE BARCELONE",
+     "annees": "2008 – 2021",
+     "fond": "campnou_nuit",
+     "lum": 0.28,
+     "mv": [
+      0.5,
+      0.5,
+      1.05,
+      0.5,
+      0.5,
+      1.18
+     ]
+    }
+   ]
+  },
+  {
+   "voix": "medias/documentaires/messi/voix/04.mp3",
+   "texte": "En 2008, un nouvel entraîneur arrive : Pep Guardiola. Et il a une idée.\nLe 2 mai 2009, au Bernabéu, il place Messi en faux numéro neuf. Ni ailier, ni attaquant. Partout à la fois. Le Barça gagne six à deux chez le Real Madrid.\nEn 2009, le club remporte tout. Six trophées sur six. Du jamais vu.\nMessi reçoit son premier Ballon d'Or en 2009. Puis un deuxième. Un troisième. Un quatrième.\n[excited] Et en 2012, il marque quatre-vingt-onze buts en une seule année civile. Un record du monde.\nPendant plus de dix ans, il gagne la Liga, la Ligue des champions, et il bat tous les records du club. Six cent soixante-douze buts avec le Barça.\nMais il y a un endroit où rien ne marche. Un maillot qu'il n'arrive pas à faire gagner.\nCelui de son propre pays.",
+   "plans": [
+    {
+     "p": 0,
+     "o": 0.0,
+     "img": "barca_2009_takasu",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.15
+     ]
+    },
+    {
+     "p": 2,
+     "o": 0.0,
+     "img": "barca_2009_carrera",
+     "mv": [
+      0.35,
+      0.5,
+      1.15,
+      0.6,
+      0.5,
+      1.15
+     ],
+     "legende": "BERNABÉU · 2 MAI 2009"
+    },
+    {
+     "p": 3,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": "2 – 6",
+     "libelle": "REAL MADRID – BARÇA",
+     "sous": "Messi joue en « faux 9 »",
+     "fond": "barca_2009_carrera",
+     "lum": 0.22,
+     "compte": 0.1,
+     "taille": 300
+    },
+    {
+     "p": 6,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": 6,
+     "suffixe": " / 6",
+     "libelle": "TROPHÉES EN 2009",
+     "fond": "barca_2011_trio",
+     "lum": 0.25
+    },
+    {
+     "p": 9,
+     "o": 0.0,
+     "k": "ballons",
+     "titre": "{n} BALLONS D'OR",
+     "annees": [
+      2009,
+      2010,
+      2011,
+      2012
+     ],
+     "fond": "barca_2011_poty",
+     "lum": 0.2,
+     "p_items": [
+      9,
+      10,
+      11,
+      12
+     ]
+    },
+    {
+     "p": 13,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": 91,
+     "libelle": "BUTS EN UNE ANNÉE CIVILE (2012)",
+     "sous": "record du monde",
+     "fond": "barca_2011_arsenal",
+     "lum": 0.25,
+     "compte": 2.0
+    },
+    {
+     "p": 15,
+     "o": 0.0,
+     "img": "barca_2014_a",
+     "mv": [
+      0.4,
+      0.5,
+      1.12,
+      0.6,
+      0.5,
+      1.12
+     ]
+    },
+    {
+     "p": 15,
+     "o": 2.8,
+     "img": "barca_2011_mallorca",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.15
+     ]
+    },
+    {
+     "p": 16,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": 672,
+     "libelle": "BUTS AVEC LE BARÇA",
+     "sous": "record du club",
+     "fond": "campnou_2017",
+     "lum": 0.25,
+     "compte": 2.2
+    },
+    {
+     "p": 17,
+     "o": 0.0,
+     "img": "arg_2010",
+     "mv": [
+      0.5,
+      0.4,
+      1.0,
+      0.5,
+      0.4,
+      1.25
+     ]
+    },
+    {
+     "p": 19,
+     "o": 0.0,
+     "img": "arg_suisse_2012",
+     "mv": [
+      0.5,
+      0.45,
+      1.05,
+      0.5,
+      0.45,
+      1.3
+     ]
+    }
+   ]
+  },
+  {
+   "duree": 4.2,
+   "plans": [
+    {
+     "k": "carton",
+     "num": "CHAPITRE 5",
+     "titre": "LA MALÉDICTION",
+     "annees": "2007 – 2016",
+     "fond": "arg_xhaka_2012",
+     "lum": 0.28,
+     "mv": [
+      0.5,
+      0.5,
+      1.05,
+      0.5,
+      0.5,
+      1.18
+     ]
+    }
+   ]
+  },
+  {
+   "voix": "medias/documentaires/messi/voix/05.mp3",
+   "texte": "En Argentine, beaucoup lui reprochent d'être parti trop jeune. On dit qu'il est catalan. Qu'il ne chante pas l'hymne. Qu'il joue pour Barcelone, pas pour son pays.\nEt sur le terrain, les finales se perdent les unes après les autres.\n2007, Copa América : perdue contre le Brésil.\n[nervous] 2014, la Coupe du monde, au Maracanã. Finale contre l'Allemagne. Cent treizième minute… but de Mario Götze. Messi passe à côté du trophée, à quelques mètres.\n2015, Copa América : perdue aux tirs au but contre le Chili.\n2016, encore le Chili, encore les tirs au but. Et cette fois, Messi rate le sien.\n[softly] Après le match, il pleure dans le vestiaire. Puis il annonce : « Pour moi, la sélection, c'est fini. »\nQuatre finales. Quatre défaites. À vingt-neuf ans, il abandonne.\nLe pays entier le supplie de revenir.\n... Quelques semaines plus tard… il revient.",
+   "plans": [
+    {
+     "p": 0,
+     "o": 0.0,
+     "img": "arg_2010",
+     "mv": [
+      0.4,
+      0.45,
+      1.15,
+      0.6,
+      0.45,
+      1.15
+     ]
+    },
+    {
+     "p": 1,
+     "o": 0.0,
+     "img": "ia_journaux",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.2
+     ]
+    },
+    {
+     "p": 3,
+     "o": 0.0,
+     "img": "arg_xhaka_2012",
+     "k": "cadre",
+     "mv": [
+      0.5,
+      0.4,
+      1.0,
+      0.5,
+      0.4,
+      1.08
+     ]
+    },
+    {
+     "p": 4,
+     "o": 0.0,
+     "k": "finales",
+     "items": [
+      [
+       "2007",
+       "Copa América",
+       "X"
+      ],
+      [
+       "2014",
+       "Coupe du monde",
+       "X"
+      ],
+      [
+       "2015",
+       "Copa América",
+       "X"
+      ],
+      [
+       "2016",
+       "Copa América",
+       "X"
+      ]
+     ],
+     "fond": "ia_vestiaire",
+     "lum": 0.18,
+     "p_items": [
+      5,
+      6,
+      11,
+      12
+     ]
+    },
+    {
+     "p": 14,
+     "o": 0.0,
+     "img": "ia_vestiaire",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.25
+     ]
+    },
+    {
+     "p": 15,
+     "o": 0.0,
+     "k": "citation",
+     "texte": "« Pour moi,\nla sélection, c'est fini. »",
+     "qui": "LIONEL MESSI · 26 JUIN 2016",
+     "fond": "ia_vestiaire",
+     "lum": 0.2
+    },
+    {
+     "p": 16,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": "4",
+     "libelle": "FINALES · 4 DÉFAITES",
+     "fond": "arg_suisse_2012",
+     "lum": 0.2,
+     "compte": 0.1
+    },
+    {
+     "p": 18,
+     "o": 0.0,
+     "img": "ia_vestiaire",
+     "mv": [
+      0.5,
+      0.5,
+      1.18,
+      0.5,
+      0.5,
+      1.02
+     ],
+     "noir_blanc": true
+    },
+    {
+     "p": 19,
+     "o": 0.0,
+     "img": "ia_journaux",
+     "mv": [
+      0.6,
+      0.5,
+      1.2,
+      0.4,
+      0.5,
+      1.2
+     ]
+    },
+    {
+     "p": 21,
+     "o": 0.0,
+     "img": "arg_2018_penalty",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.2
+     ]
+    }
+   ]
+  },
+  {
+   "duree": 4.2,
+   "plans": [
+    {
+     "k": "carton",
+     "num": "CHAPITRE 6",
+     "titre": "LA RÉDEMPTION",
+     "annees": "2021 – 2022",
+     "fond": "arg_2022_mexique",
+     "lum": 0.28,
+     "mv": [
+      0.5,
+      0.5,
+      1.05,
+      0.5,
+      0.5,
+      1.18
+     ]
+    }
+   ]
+  },
+  {
+   "voix": "medias/documentaires/messi/voix/06.mp3",
+   "texte": "Il faudra attendre cinq ans.\nLe 10 juillet 2021, au Maracanã, le stade de sa plus grande douleur, l'Argentine bat le Brésil en finale de la Copa América. Au coup de sifflet, Messi tombe à genoux. Tous ses coéquipiers courent vers lui. Pas vers le trophée. Vers lui.\nMais un mois plus tard, le choc. Le Barça, étranglé par les dettes, ne peut plus le garder. En conférence de presse, Messi pleure. Il quitte le club de sa vie et part au Paris Saint-Germain.\nEt puis arrive le Qatar. La Coupe du monde 2022. Probablement sa dernière chance.\nPremier match : défaite contre l'Arabie saoudite. Tout le monde l'enterre.\nMais l'Argentine se relève. Match après match, il porte son équipe jusqu'en finale.\n[excited] Le 18 décembre 2022, contre la France. Il marque deux fois. Kylian Mbappé répond par un triplé. Trois partout. Les tirs au but.\n[nervous] Montiel s'avance… frappe…\n[excited] Et l'Argentine est championne du monde !\nMessi soulève enfin la coupe. Élu meilleur joueur du tournoi.\nL'enfant qui se piquait la jambe tous les soirs est sur le toit du monde.",
+   "plans": [
+    {
+     "p": 0,
+     "o": 0.0,
+     "img": "arg_2018_penalty",
+     "mv": [
+      0.5,
+      0.45,
+      1.18,
+      0.5,
+      0.45,
+      1.02
+     ],
+     "noir_blanc": true
+    },
+    {
+     "p": 1,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": "1 – 0",
+     "libelle": "ARGENTINE – BRÉSIL",
+     "sous": "finale de la Copa América · Maracanã · 10 juillet 2021",
+     "fond": "arg_2018_penalty",
+     "lum": 0.22,
+     "compte": 0.1,
+     "taille": 300
+    },
+    {
+     "p": 2,
+     "o": 0.0,
+     "img": "ia_genoux",
+     "mv": [
+      0.5,
+      0.55,
+      1.0,
+      0.5,
+      0.55,
+      1.2
+     ]
+    },
+    {
+     "p": 6,
+     "o": 0.0,
+     "img": "campnou_nuit",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.2
+     ],
+     "noir_blanc": true,
+     "legende": "AOÛT 2021"
+    },
+    {
+     "p": 8,
+     "o": 0.0,
+     "img": "ia_conference",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.15
+     ]
+    },
+    {
+     "p": 9,
+     "o": 0.0,
+     "img": "psg_trio_2021",
+     "mv": [
+      0.4,
+      0.5,
+      1.12,
+      0.6,
+      0.5,
+      1.12
+     ],
+     "legende": "PARIS SAINT-GERMAIN · 2021 – 2023"
+    },
+    {
+     "p": 10,
+     "o": 0.0,
+     "img": "psg_trio_2022",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.15
+     ]
+    },
+    {
+     "p": 11,
+     "o": 0.0,
+     "img": "arg_2022_mexique",
+     "mv": [
+      0.5,
+      0.4,
+      1.0,
+      0.5,
+      0.4,
+      1.2
+     ],
+     "legende": "QATAR · NOVEMBRE 2022"
+    },
+    {
+     "p": 13,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": "1 – 2",
+     "libelle": "ARGENTINE – ARABIE SAOUDITE",
+     "sous": "premier match, 22 novembre 2022",
+     "fond": "arg_2022_mexique",
+     "lum": 0.2,
+     "compte": 0.1,
+     "taille": 300
+    },
+    {
+     "p": 15,
+     "o": 0.0,
+     "img": "arg_2022_mexique",
+     "mv": [
+      0.35,
+      0.4,
+      1.3,
+      0.6,
+      0.4,
+      1.3
+     ]
+    },
+    {
+     "p": 17,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": "3 – 3",
+     "libelle": "ARGENTINE – FRANCE",
+     "sous": "finale de la Coupe du monde · 18 décembre 2022",
+     "fond": "arg_2022_mexique",
+     "lum": 0.2,
+     "compte": 0.1,
+     "taille": 300
+    },
+    {
+     "p": 21,
+     "o": 0.0,
+     "img": "ia_penalty",
+     "mv": [
+      0.5,
+      0.55,
+      1.0,
+      0.5,
+      0.55,
+      1.3
+     ]
+    },
+    {
+     "p": 24,
+     "o": 0.0,
+     "img": "egypte_lautaro",
+     "mv": [
+      0.5,
+      0.45,
+      1.15,
+      0.5,
+      0.45,
+      1.0
+     ],
+     "flash": true
+    },
+    {
+     "p": 25,
+     "o": 0.0,
+     "img": "ia_trophee",
+     "mv": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.2
+     ]
+    },
+    {
+     "p": 27,
+     "o": 0.0,
+     "img": "arg_2022_mexique",
+     "mv": [
+      0.3,
+      0.5,
+      1.1,
+      0.3,
+      0.5,
+      1.35
+     ]
+    }
+   ]
+  },
+  {
+   "duree": 4.2,
+   "plans": [
+    {
+     "k": "carton",
+     "num": "CHAPITRE 7",
+     "titre": "LE DERNIER ACTE",
+     "annees": "2023 – 2026",
+     "fond": "miami_ne_143",
+     "lum": 0.28,
+     "mv": [
+      0.5,
+      0.5,
+      1.05,
+      0.5,
+      0.5,
+      1.18
+     ]
+    }
+   ]
+  },
+  {
+   "voix": "medias/documentaires/messi/voix/07.mp3",
+   "texte": "En 2023, il reçoit un huitième Ballon d'Or. Personne n'en a jamais gagné autant.\nIl rejoint l'Inter Miami, aux États-Unis. Et le club, qui n'avait jamais rien gagné, soulève très vite son premier trophée. En décembre 2025, Miami est champion de MLS.\nAvec l'Argentine, il gagne encore une Copa América, en 2024.\nEt en 2026, il dispute sa sixième Coupe du monde. Un record… qu'il partage avec un certain Cristiano Ronaldo.\nTriplé contre l'Algérie. Doublé contre l'Autriche. Il dépasse Miroslav Klose et devient le meilleur buteur de toute l'histoire de la Coupe du monde.\nL'Argentine va jusqu'en finale. Le 19 juillet 2026, près de New York, face à l'Espagne.\n[softly] Zéro à zéro après quatre-vingt-dix minutes. Puis, en prolongation, Ferran Torres marque. Un à zéro.\nCette fois, le conte de fées ne se termine pas bien.\nLe 31 août, Messi annonce sa retraite internationale. Le 6 octobre 2026, à Buenos Aires, il joue son dernier match avec l'Argentine. Cent vingt-six buts. Le record de son pays.",
+   "plans": [
+    {
+     "p": 0,
+     "o": 0.0,
+     "k": "ballons",
+     "titre": "{n} BALLONS D'OR",
+     "annees": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2015,
+      2019,
+      2021,
+      2023
+     ],
+     "lum": 0.2,
+     "pas": 0.3
+    },
+    {
+     "p": 2,
+     "o": 0.0,
+     "img": "miami_ne_143",
+     "mv": [
+      0.4,
+      0.5,
+      1.12,
+      0.6,
+      0.5,
+      1.12
+     ],
+     "legende": "INTER MIAMI · DEPUIS 2023"
+    },
+    {
+     "p": 3,
+     "o": 0.0,
+     "img": "miami_nycfc_051",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.15
+     ]
+    },
+    {
+     "p": 4,
+     "o": 0.0,
+     "img": "miami_nycfc_081",
+     "mv": [
+      0.5,
+      0.45,
+      1.05,
+      0.5,
+      0.45,
+      1.25
+     ],
+     "legende": "CHAMPION DE MLS · DÉCEMBRE 2025"
+    },
+    {
+     "p": 5,
+     "o": 0.0,
+     "img": "miami_2025",
+     "k": "cadre",
+     "mv": [
+      0.5,
+      0.3,
+      1.0,
+      0.5,
+      0.3,
+      1.08
+     ]
+    },
+    {
+     "p": 6,
+     "o": 0.0,
+     "img": "egypte_105",
+     "k": "cadre",
+     "mv": [
+      0.5,
+      0.3,
+      1.0,
+      0.5,
+      0.3,
+      1.08
+     ],
+     "legende": "COUPE DU MONDE 2026"
+    },
+    {
+     "p": 8,
+     "o": 0.0,
+     "img": "ronaldo_messi_2011",
+     "k": "cadre",
+     "mv": [
+      0.5,
+      0.35,
+      1.0,
+      0.5,
+      0.35,
+      1.1
+     ]
+    },
+    {
+     "p": 9,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": "3 + 2",
+     "libelle": "BUTS CONTRE L'ALGÉRIE PUIS L'AUTRICHE",
+     "fond": "egypte_226",
+     "lum": 0.22,
+     "compte": 0.1,
+     "taille": 300
+    },
+    {
+     "p": 11,
+     "o": 0.0,
+     "img": "egypte_312",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.2
+     ],
+     "legende": "MEILLEUR BUTEUR DE L'HISTOIRE DE LA COUPE DU MONDE"
+    },
+    {
+     "p": 12,
+     "o": 0.0,
+     "img": "egypte_lautaro",
+     "mv": [
+      0.4,
+      0.5,
+      1.12,
+      0.6,
+      0.5,
+      1.12
+     ]
+    },
+    {
+     "p": 13,
+     "o": 0.0,
+     "img": "finale_046",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.15
+     ],
+     "legende": "NEW JERSEY · 19 JUILLET 2026"
+    },
+    {
+     "p": 14,
+     "o": 0.0,
+     "img": "finale_090",
+     "mv": [
+      0.4,
+      0.45,
+      1.15,
+      0.6,
+      0.45,
+      1.15
+     ]
+    },
+    {
+     "p": 15,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": "0 – 1",
+     "libelle": "ARGENTINE – ESPAGNE",
+     "sous": "Ferran Torres, 106e minute, en prolongation",
+     "fond": "finale_093",
+     "lum": 0.22,
+     "compte": 0.1,
+     "taille": 300
+    },
+    {
+     "p": 17,
+     "o": 0.0,
+     "img": "finale_070",
+     "mv": [
+      0.6,
+      0.42,
+      1.0,
+      0.6,
+      0.42,
+      1.3
+     ]
+    },
+    {
+     "p": 18,
+     "o": 0.0,
+     "img": "finale_305",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.15
+     ],
+     "noir_blanc": true
+    },
+    {
+     "p": 20,
+     "o": 0.0,
+     "k": "chiffre",
+     "valeur": 126,
+     "libelle": "BUTS AVEC L'ARGENTINE",
+     "sous": "record de la sélection",
+     "fond": "finale_076",
+     "lum": 0.22,
+     "compte": 2.0
+    }
+   ]
+  },
+  {
+   "voix": "medias/documentaires/messi/voix/08.mp3",
+   "texte": "[softly] On lui a dit qu'il était trop petit. Il a grandi.\nOn lui a dit qu'il n'était pas assez argentin. Il a offert la Coupe du monde à l'Argentine.\nOn lui a dit qu'il ne gagnerait jamais avec son pays. Il a tout gagné.\n... Sa dernière finale, il l'a perdue. Et pourtant, ça ne change rien.\nParce que Lionel Messi n'a jamais eu besoin d'un dernier trophée pour être immense.\nIl lui a juste fallu un ballon… et une serviette en papier.\n...\nDemain, sur Lucarne Foot : l'histoire de Cristiano Ronaldo. Abonne-toi pour ne pas la rater.",
+   "apres": 0.4,
+   "plans": [
+    {
+     "p": 0,
+     "o": 0.0,
+     "img": "ia_toise",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.15
+     ]
+    },
+    {
+     "p": 1,
+     "o": 0.0,
+     "img": "barca_2011_poty",
+     "mv": [
+      0.5,
+      0.4,
+      1.0,
+      0.5,
+      0.4,
+      1.15
+     ]
+    },
+    {
+     "p": 2,
+     "o": 0.0,
+     "img": "arg_2010",
+     "mv": [
+      0.5,
+      0.4,
+      1.0,
+      0.5,
+      0.4,
+      1.15
+     ]
+    },
+    {
+     "p": 3,
+     "o": 0.0,
+     "img": "ia_trophee",
+     "mv": [
+      0.5,
+      0.5,
+      1.1,
+      0.5,
+      0.5,
+      1.25
+     ]
+    },
+    {
+     "p": 4,
+     "o": 0.0,
+     "img": "arg_2018_penalty",
+     "mv": [
+      0.5,
+      0.45,
+      1.0,
+      0.5,
+      0.45,
+      1.15
+     ]
+    },
+    {
+     "p": 5,
+     "o": 0.0,
+     "img": "egypte_lautaro",
+     "mv": [
+      0.4,
+      0.5,
+      1.12,
+      0.6,
+      0.5,
+      1.12
+     ]
+    },
+    {
+     "p": 6,
+     "o": 0.0,
+     "img": "finale_070",
+     "mv": [
+      0.6,
+      0.42,
+      1.0,
+      0.6,
+      0.42,
+      1.2
+     ],
+     "noir_blanc": true
+    },
+    {
+     "p": 8,
+     "o": 0.0,
+     "img": "barca_psg_2017a",
+     "mv": [
+      0.5,
+      0.4,
+      1.0,
+      0.5,
+      0.4,
+      1.2
+     ]
+    },
+    {
+     "p": 9,
+     "o": 0.0,
+     "img": "ia_terrain_terre",
+     "mv": [
+      0.5,
+      0.55,
+      1.0,
+      0.5,
+      0.55,
+      1.2
+     ]
+    },
+    {
+     "p": 10,
+     "o": 0.0,
+     "img": "ia_serviette",
+     "mv": [
+      0.5,
+      0.5,
+      1.1,
+      0.5,
+      0.5,
+      1.4
+     ]
+    },
+    {
+     "p": 11,
+     "o": 0.0,
+     "k": "fin",
+     "l1": "Demain : l'histoire de Cristiano Ronaldo",
+     "l2": "@lucarnefoot333",
+     "fondu": 0.8
+    }
+   ]
+  },
+  {
+   "duree": 16.0,
+   "plans": [
+    {
+     "k": "fin",
+     "l1": "Demain : l'histoire de Cristiano Ronaldo",
+     "l2": "@lucarnefoot333",
+     "fondu": 0
+    }
+   ]
+  }
+ ],
+ "ducking": 0.65,
+ "musiques": [
+  {
+   "fichier": "medias/documentaires/messi/musique/m1_enfance.mp3",
+   "debut": 0,
+   "fin": "bloc:4+1.5",
+   "gain": 0.5,
+   "fi": 2.0,
+   "fo": 3.0
+  },
+  {
+   "fichier": "medias/documentaires/messi/musique/m5_dernier.mp3",
+   "debut": "bloc:4",
+   "fin": "bloc:6+1",
+   "gain": 0.45,
+   "fi": 1.5,
+   "fo": 2.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/musique/m2_envol.mp3",
+   "debut": "bloc:6",
+   "fin": "bloc:10+1",
+   "gain": 0.45,
+   "fi": 1.0,
+   "fo": 2.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/musique/m3_malediction.mp3",
+   "debut": "bloc:10",
+   "fin": "bloc:12+1",
+   "gain": 0.6,
+   "fi": 1.0,
+   "fo": 2.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/musique/m4_redemption.mp3",
+   "debut": "bloc:12",
+   "fin": "bloc:14+1",
+   "depuis": 50,
+   "gain": 0.5,
+   "fi": 1.5,
+   "fo": 2.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/musique/m5_dernier.mp3",
+   "debut": "bloc:14",
+   "depuis": 40,
+   "gain": 0.5,
+   "fi": 1.5,
+   "fo": 5.0
+  }
+ ],
+ "bruitages": [
+  {
+   "fichier": "medias/documentaires/messi/sfx/whoosh.mp3",
+   "t": "bloc:1",
+   "gain": 0.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/whoosh.mp3",
+   "t": "bloc:2",
+   "gain": 0.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/whoosh.mp3",
+   "t": "bloc:4",
+   "gain": 0.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/whoosh.mp3",
+   "t": "bloc:6",
+   "gain": 0.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/whoosh.mp3",
+   "t": "bloc:8",
+   "gain": 0.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/whoosh.mp3",
+   "t": "bloc:10",
+   "gain": 0.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/whoosh.mp3",
+   "t": "bloc:12",
+   "gain": 0.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/whoosh.mp3",
+   "t": "bloc:14",
+   "gain": 0.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/coeur.mp3",
+   "t": "bloc:0@3",
+   "gain": 0.45,
+   "duree": 8,
+   "fo": 2.0
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/avion.mp3",
+   "t": "bloc:5@0",
+   "gain": 0.3,
+   "duree": 7,
+   "fi": 1.0,
+   "fo": 2.0
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/stylo.mp3",
+   "t": "bloc:5@10+0.2",
+   "gain": 0.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/foule.mp3",
+   "t": "bloc:7@12",
+   "gain": 0.35,
+   "duree": 5,
+   "fi": 0.3,
+   "fo": 1.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/flashs.mp3",
+   "t": "bloc:9@9",
+   "gain": 0.35
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/coeur.mp3",
+   "t": "bloc:11@8",
+   "gain": 0.4,
+   "duree": 3,
+   "fo": 0.8
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/deception.mp3",
+   "t": "bloc:11@9+0.4",
+   "gain": 0.4,
+   "fo": 1.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/deception.mp3",
+   "t": "bloc:11@13+0.6",
+   "gain": 0.3,
+   "duree": 4,
+   "fo": 1.5
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/sifflet.mp3",
+   "t": "bloc:13@2",
+   "gain": 0.4
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/flashs.mp3",
+   "t": "bloc:13@8",
+   "gain": 0.35
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/coeur.mp3",
+   "t": "bloc:13@21",
+   "gain": 0.45,
+   "duree": 7,
+   "fo": 1.0
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/foule.mp3",
+   "t": "bloc:13@24",
+   "gain": 0.5,
+   "duree": 9,
+   "fo": 3.0
+  },
+  {
+   "fichier": "medias/documentaires/messi/sfx/deception.mp3",
+   "t": "bloc:15@15+0.8",
+   "gain": 0.3,
+   "fo": 1.5
+  }
+ ]
+}

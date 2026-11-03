@@ -473,7 +473,10 @@ def mixer(sortie_wav):
     # musiques : [fichier, début_s (absolu ou "bloc:index"), durée, gain, fondu_entrée, fondu_sortie, décalage_dans_le_fichier]
     def tabs(x):
         if isinstance(x, str) and x.startswith("bloc:"):
-            j, *o = x[5:].split("+"); return blocs[int(j)]["_t0"] + (float(o[0]) if o else 0)
+            # "bloc:5" = début du bloc 5 ; "bloc:5@10+0.3" = phrase 10 de la voix du bloc 5, + 0,3 s
+            j, *o = x[5:].split("+"); j, *ph = j.split("@"); b = blocs[int(j)]
+            base = b["_t0"] + (b["_av"] + b["_ph"][int(ph[0])] if ph else 0)
+            return base + (float(o[0]) if o else 0)
         return float(x)
     for m in cfg.get("musiques", []):
         f = P(m["fichier"])
@@ -502,7 +505,7 @@ def mixer(sortie_wav):
 def rendre(job):
     a, b, f = job
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{WW}x{HH}",
-                           "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "19" if not APERCU else "28",
+                           "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "medium", "-crf", "23" if not APERCU else "28",
                            "-pix_fmt", "yuv420p", f], stdin=subprocess.PIPE)
     for n in range(a, b):
         ff.stdin.write(frame(n).tobytes())
@@ -525,7 +528,7 @@ if __name__ == "__main__":
     lst = out + ".liste.txt"
     open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
     subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst, "-ss", str(t_de), "-t", str(t_a - t_de),
-                           "-i", wav, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-shortest",
+                           "-i", wav, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "256k", "-shortest",
                            "-movflags", "+faststart", out])
     for p in parts + [lst, wav]: os.remove(p)
     print("ok", out)

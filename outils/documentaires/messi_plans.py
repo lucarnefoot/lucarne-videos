@@ -36,7 +36,7 @@ blocs = []
 blocs.append({"voix": voix(0), "texte": textes[0], "avant": 2.0, "apres": 0.6, "plans": [
     P(0, "rosario_nuit", mv=pan(0.35, 0.6, 0.5, 1.15), legende="ROSARIO · ARGENTINE"),
     P(1, "ia_rue", mv=zin(0.5, 0.55)),
-    P(2, "ia_chambre", mv=zin(0.5, 0.5, 1.0, 1.2)),
+    P(2, "ia_dortoir", mv=zin(0.45, 0.5, 1.0, 1.2)),
     P(3, "ia_seringue", mv=zin(0.5, 0.5, 1.05, 1.3)),
     P(6, "ia_seringue", mv=pan(0.35, 0.6, 0.5, 1.35), noir_blanc=True),
     P(8, "ia_toise", mv=zin(0.5, 0.45, 1.0, 1.2)),
@@ -57,8 +57,8 @@ blocs.append({"voix": voix(1), "texte": textes[1], "plans": [
     P(4, "ia_grandmere", mv=zin(0.5, 0.55, 1.0, 1.18)),
     P(6, "ia_terrain_terre", mv=pan(0.35, 0.6, 0.55, 1.15)),
     P(8, "ia_terrain_terre", mv=zin(0.6, 0.6, 1.25, 1.5)),
-    P(10, "predio_03", mv=pan(0.4, 0.6), legende="NEWELL'S OLD BOYS"),
-    P(12, k="chiffre", valeur="87", libelle="« LA MACHINE DE 87 »", sous="l'équipe de jeunes de Newell's", fond="predio_09", taille=360, compte=0.1),
+    P(10, "ia_terrain_terre", mv=pan(0.6, 0.4, 0.5, 1.2), legende="NEWELL'S OLD BOYS · 1993"),
+    P(12, k="chiffre", valeur="87", libelle="« LA MACHINE DE 87 »", sous="l'équipe de jeunes de Newell's", fond="ia_terrain_terre", taille=360, compte=0.1),
     P(13, "ia_ciel", mv=zin(0.5, 0.45, 1.0, 1.15)),
     P(14, "barca_2015_cf", mv=zin(0.5, 0.4, 1.05, 1.25)),
     P(16, "ia_toise", mv=pan(0.4, 0.55, 0.5, 1.25)),
@@ -93,13 +93,13 @@ blocs.append({"voix": voix(3), "texte": textes[3], "plans": [
     P(1, k="chiffre", valeur=30, suffixe=" CM", libelle="GAGNÉS À LA MASIA", fond="masia_canplanas", lum=0.25),
     P(2, "ia_terrain_masia", mv=pan(0.35, 0.6)),
     P(3, "campnou_pano", mv=pan(0.2, 0.8, 0.5, 1.6), legende="16 OCTOBRE 2004 · 17 ANS"),
-    P(5, "barca_2007_gol", mv=zin(0.5, 0.45, 1.0, 1.2), legende="1er MAI 2005 · PREMIER BUT"),
+    P(5, "barca_2010_valladolid", mv=zin(0.5, 0.3, 1.0, 1.2)),
     P(8, "campnou_2017", mv=zout(0.5, 0.5)),
-    P(9, "barca_2007_gol", mv=pan(0.35, 0.6, 0.45, 1.3), legende="18 AVRIL 2007 · CONTRE GETAFE"),
+    P(9, "barca_2007_gol", mv=pan(0.35, 0.6, 0.45, 1.3)),
     P(10, k="chiffre", valeur=5, libelle="ADVERSAIRES ÉLIMINÉS, GARDIEN COMPRIS", fond="campnou_aerien", lum=0.25, compte=2.2),
     P(12, "campnou_2014_03", mv=zin(0.5, 0.4, 1.0, 1.2)),
     P(13, k="citation", texte="« C'est le but\nde Maradona en 1986. »", fond="campnou_nuit", lum=0.25),
-    P(14, "arg_2010b", mv=zin(0.5, 0.4), legende="PÉKIN 2008 · CHAMPION OLYMPIQUE"),
+    P(14, k="chiffre", valeur="OR", libelle="JEUX OLYMPIQUES DE PÉKIN 2008", sous="champion olympique avec l'Argentine", fond="arg_2010b", lum=0.22, compte=0.1, taille=300),
     P(15, "barca_2009_gamper", mv=zin(0.5, 0.4, 1.0, 1.25)),
 ]})
 # 8-9 · LE ROI DE BARCELONE
@@ -107,7 +107,7 @@ blocs.append(carton("CHAPITRE 4", "LE ROI DE BARCELONE", "2008 – 2021", "campn
 blocs.append({"voix": voix(4), "texte": textes[4], "plans": [
     P(0, "barca_2009_takasu", mv=zin(0.5, 0.45)),
     P(2, "barca_2009_carrera", mv=pan(0.35, 0.6, 0.5, 1.15), legende="BERNABÉU · 2 MAI 2009"),
-    P(3, k="chiffre", valeur="6 – 2", libelle="REAL MADRID – BARÇA", sous="Messi joue en « faux 9 »", fond="barca_2009_carrera", lum=0.22, compte=0.1, taille=300),
+    P(3, k="chiffre", valeur="2 – 6", libelle="REAL MADRID – BARÇA", sous="Messi joue en « faux 9 »", fond="barca_2009_carrera", lum=0.22, compte=0.1, taille=300),
     P(6, k="chiffre", valeur=6, suffixe=" / 6", libelle="TROPHÉES EN 2009", fond="barca_2011_trio", lum=0.25),
     P(9, k="ballons", titre="{n} BALLONS D'OR", annees=[2009, 2010, 2011, 2012], fond="barca_2011_poty", lum=0.2, p_items=[9, 10, 11, 12]),
     P(13, k="chiffre", valeur=91, libelle="BUTS EN UNE ANNÉE CIVILE (2012)", sous="record du monde", fond="barca_2011_arsenal", lum=0.25, compte=2.0),
@@ -129,14 +129,14 @@ blocs.append({"voix": voix(5), "texte": textes[5], "plans": [
     P(15, k="citation", texte="« Pour moi,\nla sélection, c'est fini. »", qui="LIONEL MESSI · 26 JUIN 2016", fond="ia_vestiaire", lum=0.2),
     P(16, k="chiffre", valeur="4", libelle="FINALES · 4 DÉFAITES", fond="arg_suisse_2012", lum=0.2, compte=0.1),
     P(18, "ia_vestiaire", mv=zout(0.5, 0.5), noir_blanc=True),
-    P(19, "arg_2022_supporters", mv=pan(0.35, 0.6)),
+    P(19, "ia_journaux", mv=pan(0.6, 0.4, 0.5, 1.2)),
     P(21, "arg_2018_penalty", mv=zin(0.5, 0.45, 1.0, 1.2)),
 ]})
 # 12-13 · LA RÉDEMPTION
 blocs.append(carton("CHAPITRE 6", "LA RÉDEMPTION", "2021 – 2022", "arg_2022_mexique"))
 blocs.append({"voix": voix(6), "texte": textes[6], "plans": [
     P(0, "arg_2018_penalty", mv=zout(0.5, 0.45), noir_blanc=True),
-    P(1, k="chiffre", valeur="1 – 0", libelle="ARGENTINE – BRÉSIL", sous="finale de la Copa América · Maracanã · 10 juillet 2021", fond="arg_2022_supporters", lum=0.25, compte=0.1, taille=300),
+    P(1, k="chiffre", valeur="1 – 0", libelle="ARGENTINE – BRÉSIL", sous="finale de la Copa América · Maracanã · 10 juillet 2021", fond="arg_2018_penalty", lum=0.22, compte=0.1, taille=300),
     P(2, "ia_genoux", mv=zin(0.5, 0.55, 1.0, 1.2)),
     P(6, "campnou_nuit", mv=zin(0.5, 0.5, 1.0, 1.2), noir_blanc=True, legende="AOÛT 2021"),
     P(8, "ia_conference", mv=zin(0.5, 0.5, 1.0, 1.15)),
@@ -145,11 +145,11 @@ blocs.append({"voix": voix(6), "texte": textes[6], "plans": [
     P(11, "arg_2022_mexique", mv=zin(0.5, 0.4, 1.0, 1.2), legende="QATAR · NOVEMBRE 2022"),
     P(13, k="chiffre", valeur="1 – 2", libelle="ARGENTINE – ARABIE SAOUDITE", sous="premier match, 22 novembre 2022", fond="arg_2022_mexique", lum=0.2, compte=0.1, taille=300),
     P(15, "arg_2022_mexique", mv=pan(0.35, 0.6, 0.4, 1.3)),
-    P(17, k="chiffre", valeur="3 – 3", libelle="ARGENTINE – FRANCE", sous="finale de la Coupe du monde · 18 décembre 2022", fond="arg_2022_supporters", lum=0.22, compte=0.1, taille=300),
+    P(17, k="chiffre", valeur="3 – 3", libelle="ARGENTINE – FRANCE", sous="finale de la Coupe du monde · 18 décembre 2022", fond="arg_2022_mexique", lum=0.2, compte=0.1, taille=300),
     P(21, "ia_penalty", mv=zin(0.5, 0.55, 1.0, 1.3)),
-    P(24, "arg_2022_supporters", mv=zin(0.5, 0.5, 1.15, 1.0), flash=True),
+    P(24, "egypte_lautaro", mv=zin(0.5, 0.45, 1.15, 1.0), flash=True),
     P(25, "ia_trophee", mv=zin(0.5, 0.5, 1.0, 1.2)),
-    P(27, "finale_222", mv=zin(0.5, 0.45, 1.0, 1.2)),
+    P(27, "arg_2022_mexique", mv=zin(0.3, 0.5, 1.1, 1.35)),
 ]})
 # 14-15 · LE DERNIER ACTE
 blocs.append(carton("CHAPITRE 7", "LE DERNIER ACTE", "2023 – 2026", "miami_ne_143"))
@@ -168,7 +168,7 @@ blocs.append({"voix": voix(7), "texte": textes[7], "plans": [
     P(14, "finale_090", mv=pan(0.4, 0.6, 0.45, 1.15)),
     P(15, k="chiffre", valeur="0 – 1", libelle="ARGENTINE – ESPAGNE", sous="Ferran Torres, 106e minute, en prolongation", fond="finale_093", lum=0.22, compte=0.1, taille=300),
     P(17, "finale_070", mv=zin(0.6, 0.42, 1.0, 1.3)),
-    P(18, "finale_305", mv=zin(0.5, 0.45, 1.0, 1.15), noir_blanc=True, legende="31 AOÛT 2026 · RETRAITE INTERNATIONALE"),
+    P(18, "finale_305", mv=zin(0.5, 0.45, 1.0, 1.15), noir_blanc=True),
     P(20, k="chiffre", valeur=126, libelle="BUTS AVEC L'ARGENTINE", sous="record de la sélection", fond="finale_076", lum=0.22, compte=2.0),
 ]})
 # 16 · ÉPILOGUE (+ appel)
@@ -178,9 +178,9 @@ blocs.append({"voix": voix(8), "texte": textes[8], "apres": 0.4, "plans": [
     P(2, "arg_2010", mv=zin(0.5, 0.4)),
     P(3, "ia_trophee", mv=zin(0.5, 0.5, 1.1, 1.25)),
     P(4, "arg_2018_penalty", mv=zin(0.5, 0.45)),
-    P(5, "arg_2022_supporters", mv=pan(0.4, 0.6)),
+    P(5, "egypte_lautaro", mv=pan(0.4, 0.6)),
     P(6, "finale_070", mv=zin(0.6, 0.42, 1.0, 1.2), noir_blanc=True),
-    P(8, "mural_barcelone", k="cadre", mv=zin(0.5, 0.4, 1.0, 1.1)),
+    P(8, "barca_psg_2017a", mv=zin(0.5, 0.4, 1.0, 1.2)),
     P(9, "ia_terrain_terre", mv=zin(0.5, 0.55, 1.0, 1.2)),
     P(10, "ia_serviette", mv=zin(0.5, 0.5, 1.1, 1.4)),
     P(11, k="fin", l1="Demain : l'histoire de Cristiano Ronaldo", l2="@lucarnefoot333", fondu=0.8),
@@ -188,9 +188,34 @@ blocs.append({"voix": voix(8), "texte": textes[8], "apres": 0.4, "plans": [
 # 17 · ÉCRAN DE FIN (20 s : place pour les éléments d'écran de fin YouTube)
 blocs.append({"duree": 16.0, "plans": [{"k": "fin", "l1": "Demain : l'histoire de Cristiano Ronaldo", "l2": "@lucarnefoot333", "fondu": 0}]})
 
+M = f"{D}/musique/"; S = f"{D}/sfx/"
+musiques = [
+    {"fichier": M + "m1_enfance.mp3", "debut": 0, "fin": "bloc:4+1.5", "gain": 0.5, "fi": 2.0, "fo": 3.0},
+    {"fichier": M + "m5_dernier.mp3", "debut": "bloc:4", "fin": "bloc:6+1", "gain": 0.45, "fi": 1.5, "fo": 2.5},
+    {"fichier": M + "m2_envol.mp3", "debut": "bloc:6", "fin": "bloc:10+1", "gain": 0.45, "fi": 1.0, "fo": 2.5},
+    {"fichier": M + "m3_malediction.mp3", "debut": "bloc:10", "fin": "bloc:12+1", "gain": 0.6, "fi": 1.0, "fo": 2.5},
+    {"fichier": M + "m4_redemption.mp3", "debut": "bloc:12", "fin": "bloc:14+1", "depuis": 50, "gain": 0.5, "fi": 1.5, "fo": 2.5},
+    {"fichier": M + "m5_dernier.mp3", "debut": "bloc:14", "depuis": 40, "gain": 0.5, "fi": 1.5, "fo": 5.0},
+]
+bruitages = [{"fichier": S + "whoosh.mp3", "t": f"bloc:{i}", "gain": 0.5} for i in (1, 2, 4, 6, 8, 10, 12, 14)] + [
+    {"fichier": S + "coeur.mp3", "t": "bloc:0@3", "gain": 0.45, "duree": 8, "fo": 2.0},
+    {"fichier": S + "avion.mp3", "t": "bloc:5@0", "gain": 0.3, "duree": 7, "fi": 1.0, "fo": 2.0},
+    {"fichier": S + "stylo.mp3", "t": "bloc:5@10+0.2", "gain": 0.5},
+    {"fichier": S + "foule.mp3", "t": "bloc:7@12", "gain": 0.35, "duree": 5, "fi": 0.3, "fo": 1.5},
+    {"fichier": S + "flashs.mp3", "t": "bloc:9@9", "gain": 0.35},
+    {"fichier": S + "coeur.mp3", "t": "bloc:11@8", "gain": 0.4, "duree": 3, "fo": 0.8},
+    {"fichier": S + "deception.mp3", "t": "bloc:11@9+0.4", "gain": 0.4, "fo": 1.5},
+    {"fichier": S + "deception.mp3", "t": "bloc:11@13+0.6", "gain": 0.3, "duree": 4, "fo": 1.5},
+    {"fichier": S + "sifflet.mp3", "t": "bloc:13@2", "gain": 0.4},
+    {"fichier": S + "flashs.mp3", "t": "bloc:13@8", "gain": 0.35},
+    {"fichier": S + "coeur.mp3", "t": "bloc:13@21", "gain": 0.45, "duree": 7, "fo": 1.0},
+    {"fichier": S + "foule.mp3", "t": "bloc:13@24", "gain": 0.5, "duree": 9, "fo": 3.0},
+    {"fichier": S + "deception.mp3", "t": "bloc:15@15+0.8", "gain": 0.3, "fo": 1.5},
+]
+
 credits = {n: credit(n) for n in meta}
 cfg = {"titre": "MESSI — Le garçon qui ne devait pas grandir", "images": D, "sortie": "documentaires/lucarne_doc_messi.mp4",
        "credits": credits, "blocs": blocs, "ducking": 0.65,
-       "musiques": [], "bruitages": []}
+       "musiques": musiques, "bruitages": bruitages}
 json.dump(cfg, open(os.path.join(ICI, "messi.json"), "w"), ensure_ascii=False, indent=1)
 print("ok", len(blocs), "blocs")

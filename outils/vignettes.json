@@ -347,5 +347,36 @@
     "Y"
    ]
   ]
+ },
+ "debrief_forest_city": {
+  "video": "semaine2/lucarne_debrief_forest_city.mp4",
+  "fond": "medias/recits/istanbul_2005/i05a.jpg",
+  "x": 0.5,
+  "lum": 0.6,
+  "haut": "DEBRIEF · PREMIER LEAGUE",
+  "gros": [
+   [
+    "FOREST",
+    "W"
+   ],
+   [
+    "3 - 1",
+    "Y"
+   ],
+   [
+    "MAN CITY",
+    "W"
+   ]
+  ],
+  "bas": [
+   [
+    "3e DÉFAITE DE SUITE",
+    "W"
+   ],
+   [
+    "CITY EN CRISE ?",
+    "R"
+   ]
+  ]
  }
 }

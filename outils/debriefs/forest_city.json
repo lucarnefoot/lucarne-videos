@@ -1,0 +1,19 @@
+{
+ "voix": "medias/voix/debrief_forest_city.mp3",
+ "sortie": "semaine2/lucarne_debrief_forest_city.mp4",
+ "tag": "DEBRIEF",
+ "sources": ["https://www.espn.com/soccer/report/_/gameId/401878757", "https://www.beinsports.com/en-us/soccer/premier-league/articles/nottingham-forest-3-1-manchester-city-delap-at-the-double-as-marescas-men-lose-again-2026-11-07"],
+ "scenes": [
+  [0, [["MAN CITY", 110, "W", 0], ["7 VICTOIRES", 130, "Y", 0.3], ["D'AFFILÉE…", 100, "W", 0.6]], null],
+  [2.90, [["PUIS…", 100, "W", 0], ["3 DÉFAITES", 140, "R", 0.3], ["DE SUITE", 100, "W", 0.6]], null],
+  [4.92, [["SAMEDI 7 NOVEMBRE", 80, "Y", 0], ["NOTTINGHAM", 120, "W", 0.3], ["FOREST", 120, "W", 0.45], ["contre Manchester City", 60, "W", 1.0]], null],
+  [7.36, [["6e MINUTE", 120, "Y", 0], ["Jair Cunha", 90, "W", 0.9], ["chipe le ballon à Gvardiol", 56, "W", 1.3], ["1 - 0", 220, "Y", 3.2]], null],
+  [12.75, [["18e MINUTE", 120, "Y", 0], ["LIAM DELAP", 110, "W", 1.0], ["2 - 0", 220, "Y", 1.8]], null],
+  [15.86, [["HAALAND", 130, "W", 0], ["croit marquer…", 70, "W", 0.6], ["SAUVÉ", 150, "R", 1.9], ["SUR LA LIGNE", 90, "R", 2.1], ["par Cunha", 64, "W", 2.6]], null],
+  [20.01, [["52e : CHERKI", 110, "Y", 0], ["2 - 1", 220, "W", 0.6], ["City y croit", 64, "W", 1.2]], null],
+  [22.51, [["73e : DELAP", 110, "Y", 0], ["ENCORE LUI", 90, "W", 0.5], ["Match plié", 64, "R", 1.4]], null],
+  [25.27, [["FOREST", 110, "W", 0], ["3 - 1", 260, "Y", 0.2], ["MAN CITY", 110, "W", 0.4]], null],
+  [26.35, [["CITY", 120, "W", 0], ["à 6 points", 90, "W", 0.5], ["D'ARSENAL", 120, "R", 0.9]], null],
+  [28.55, [["Crise passagère", 80, "W", 0], ["ou vrai problème ?", 80, "Y", 0.6], ["Dis-le en commentaire", 58, "Y", 1.8], ["ABONNE-TOI", 90, "Y", 2.4]], "lulu"]
+ ]
+}

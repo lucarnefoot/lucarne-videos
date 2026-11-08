@@ -378,5 +378,36 @@
     "R"
    ]
   ]
+ },
+ "debrief_lens_om": {
+  "video": "semaine2/lucarne_debrief_lens_om.mp4",
+  "fond": "medias/recits/istanbul_2005/i04a.jpg",
+  "x": 0.5,
+  "lum": 0.6,
+  "haut": "DEBRIEF · LIGUE 1",
+  "gros": [
+   [
+    "LENS",
+    "W"
+   ],
+   [
+    "1 - 2",
+    "Y"
+   ],
+   [
+    "L'OM",
+    "W"
+   ]
+  ],
+  "bas": [
+   [
+    "RENVOYÉ EN RÉSERVE…",
+    "W"
+   ],
+   [
+    "IL OFFRE LA VICTOIRE",
+    "R"
+   ]
+  ]
  }
 }

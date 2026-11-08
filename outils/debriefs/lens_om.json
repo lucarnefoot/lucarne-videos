@@ -1,0 +1,19 @@
+{
+ "voix": "medias/voix/debrief_lens_om.mp3",
+ "sortie": "semaine2/lucarne_debrief_lens_om.mp4",
+ "tag": "DEBRIEF",
+ "sources": ["https://www.footmercato.net/live/2320001620100876839-lens-vs-marseille", "https://www.sofascore.com/football/match/rc-lens-olympique-de-marseille/QHsYH", "https://news.footeo.com/2026/11/08/lens-om-1-2-marseille-passe-4e-en-profitant-des-cadeaux-lensois-17266", "https://africafootunited.com/ligue-1-lom-fait-plier-lens-a-bollaert-et-sinvite-dans-le-top-4/"],
+ "scenes": [
+  [0, [["DIMANCHE SOIR", 90, "Y", 0], ["LENS - OM", 140, "W", 0.3], ["à Bollaert", 64, "W", 0.8], ["Un héros inattendu", 64, "Y", 2.4]], null],
+  [4.99, [["2e MINUTE", 120, "Y", 0], ["AMINE GOUIRI", 110, "W", 1.0], ["0 - 1", 220, "Y", 1.6]], null],
+  [8.20, [["20e MINUTE", 120, "Y", 0], ["FLORIAN THAUVIN", 100, "W", 1.0], ["l'ancien Marseillais", 64, "R", 2.0], ["1 - 1", 220, "Y", 3.2]], null],
+  [12.93, [["MI-TEMPS", 120, "W", 0], ["1 - 1", 220, "Y", 0.3]], null],
+  [14.46, [["ENTRÉE EN JEU", 80, "W", 0], ["KEYLIANE", 120, "Y", 0.5], ["ABDALLAH", 120, "Y", 0.7]], null],
+  [16.70, [["La semaine dernière :", 70, "W", 0], ["RENVOYÉ", 130, "R", 1.0], ["EN RÉSERVE", 110, "R", 1.2]], null],
+  [19.66, [["82e MINUTE", 120, "Y", 0], ["Le ballon revient sur lui…", 60, "W", 1.4], ["IL FRAPPE", 110, "W", 2.4]], null],
+  [23.41, [["BUT !", 200, "Y", 0], ["ABDALLAH", 120, "W", 0.3]], null],
+  [25.17, [["LENS", 110, "W", 0], ["1 - 2", 260, "Y", 0.2], ["MARSEILLE", 110, "W", 0.4]], null],
+  [27.36, [["L'OM", 120, "W", 0], ["4e", 200, "Y", 0.4], ["de Ligue 1", 80, "W", 0.7]], null],
+  [29.79, [["Abdallah titulaire ?", 80, "W", 0], ["Dis-le en commentaire", 58, "Y", 1.6], ["ABONNE-TOI", 90, "Y", 2.2]], "lulu"]
+ ]
+}
